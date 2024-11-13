@@ -1,0 +1,32 @@
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  border-radius: 15px;
+  width: 350px;
+  color: #efefef;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactName,
+.contactNumber {
+  display: flex;
+  align-items: center;
+}
+
+.contactName {
+  padding-bottom: 10px;
+  font-weight: 700;
+}
+
+.contactIcon {
+  margin-right: 8px;
+  padding-top: 4px;
+}
